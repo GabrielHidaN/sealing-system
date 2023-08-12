@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins&display=swap');
+
+:root {
+
+    --bg-color: rgba(0, 183, 255, 0.166);
+    --button-color: rgb(4, 161, 4);
+    --font-h1-color: rgb(14, 14, 89);
+
+
+
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-familly-OpenSans: 'Open Sans', cursive;
+    --font-familly-Poppins: 'Poppins' , cursive;
+
+}
+
