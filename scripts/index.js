@@ -1,7 +1,10 @@
-const btn = document.getElementById('btntxt')
+const formEl = document.getElementById('form');
 
-btn.addEventListener('click', ()=>{
-
-    let dados= document.getElementById('email-user')
-    console.log(dados.value)
+formEl.addEventListener('submit', event => {
+    event.preventDefault();
+    
+    const formData = new FormData(formEl);
+    const data = Object.fromEntries(formData);
+    console.log(data)
 })
+
