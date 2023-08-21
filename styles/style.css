@@ -4,7 +4,7 @@
 
     --bg-color: rgba(0, 183, 255, 0.166);
     --button-color: rgb(4, 161, 4);
-    --font-h1-color: rgb(14, 14, 89);
+    --font-h1-color: rgb(27, 27, 126);
     --bg-inputs-color: rgba(240, 227, 186, 0.641);
     --color-white : rgb(255, 255, 255);
 
@@ -14,3 +14,51 @@
 
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    background-color: var(--bg-color);
+    
+}
+
+
+
+#secao-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.s1-h1{
+    color: var(--font-h1-color);
+    font-family: var(--font-familly-OpenSans);
+    font-size: 3em;
+    text-shadow: 2px 2px #0000001f;
+}
+
+.s1-h2 {
+    color: rgba(0, 0, 0, 0.356);
+    font-family: var(--font-familly-OpenSans);
+    font-size: 2em;
+}
+
+.s1-p{
+    color: black;
+    font-family: var(--font-familly-OpenSans);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#secao-2{
+    display: flex;
+    justify-content: end;
+}
+
+#secao-register{
+    padding: 20px;
+    border: solid 2px #0000003e;
+    border-radius: 10px;
+}

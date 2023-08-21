@@ -20,30 +20,7 @@ function password (){
         alert('as senhas não coincidem')
 
     }
-
-   
-
-    function verificaTamanhoMinimoSenha(senha, tamanhoMinimo) {
-        return senha.length >= tamanhoMinimo;
-      }
-    
-      
-      // Exemplo de uso
-      const senha1 = "senha123";
-      const senha2 = "abc";
-      const tamanhoMinimo = 6;
-      
-      if (verificaTamanhoMinimoSenha(senha1, tamanhoMinimo)) {
-        console.log("Senha válida!");
-      } else {
-        console.log("Senha muito curta!");
-      }
-      
-      if (verificaTamanhoMinimoSenha(senha2, tamanhoMinimo)) {
-        console.log("Senha válida!");
-      } else {
-        console.log("Senha muito curta!");
-      }
-    }
+}
+  
 
 
