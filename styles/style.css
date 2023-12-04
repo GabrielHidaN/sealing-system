@@ -14,22 +14,27 @@
 
 }
 
+body{
+    background-color: var(--bg-color);
+}
+
 main{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0;
     justify-content: center;
-    background-color: var(--bg-color);
+  
+    gap: 300px;
+    margin: 200px;
     
 }
-
 
 
 #secao-info{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    
 }
 
 .s1-h1{
